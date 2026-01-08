@@ -1,4 +1,54 @@
 {
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Tokyo Night"
+  "workbench.startupEditor": "none", // Não abre nenhum editor ao iniciar o VS Code
+
+  "editor.fontFamily": "Cascadia Code, Fira Code, monospace",
+  "editor.fontSize": 16, // Tamanho da fonte
+  "editor.fontLigatures": true, // Ativa ligaduras tipográficas (=>, !=, etc)
+  "editor.lineHeight": 26, // Altura das linhas do código
+
+  "editor.codeLens": false, // Desativa referências inline (ex: usos de métodos)
+  "git.decorations.enabled": false, // Remove indicadores visuais do Git no editor
+  "scm.diffDecorations": "none", // Remove marcações de diff no controle de versão
+
+  "editor.renderLineHighlight": "line", // Destaca a linha atual inteira
+  "editor.matchBrackets": "always", // Sempre destaca parênteses/chaves correspondentes
+  "editor.occurrencesHighlight": "singleFile", // Destaca ocorrências apenas no arquivo atual
+  "editor.selectionHighlight": true, // Destaca outras ocorrências do texto selecionado
+
+  "editor.lightbulb.enabled": "off", // Desativa sugestões automáticas (lâmpada)
+
+  "editor.cursorStyle": "block", // Cursor em formato de linha
+  "editor.cursorBlinking": "solid", // Cursor sem piscar
+
+  "editor.tabSize": 2, // Define tabulação com 2 espaços
+
+  "editor.quickSuggestions": {
+    "other": "on", // Sugestões automáticas em código
+    "comments": "on", // Desativa sugestões dentro de comentários
+    "strings": "off" // Desativa sugestões dentro de strings
+  },
+
+  "files.autoSave": "afterDelay", // Salva arquivos automaticamente após um tempo
+  "files.trimTrailingWhitespace": true, // Remove espaços em branco no final das linhas
+  "files.insertFinalNewline": true, // Garante uma linha em branco no final do arquivo
+
+  "window.commandCenter": false, // Desativa o command center no topo
+  "window.menuBarVisibility": "toggle", // Menu aparece apenas quando acionado
+  "workbench.layoutControl.enabled": false, // Remove controle visual de layout
+  "chat.commandCenter.enabled": false,
+  "git.confirmSync": false,
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.lineNumbers": "relative",
+
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 0,
+  "editor.wrappingIndent": "same",
+
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+
+  "editor.stickyScroll.enabled": false,
 }
