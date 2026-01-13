@@ -2,7 +2,7 @@
   // ===== Editor: leitura confortável =====
   "editor.fontFamily": "Cascadia Code, monospace",
   "editor.fontSize": 14,
-  "editor.lineHeight": 22,
+  "editor.lineHeight": 28,
   "editor.fontLigatures": true,
 
   "editor.wordWrap": "on",
