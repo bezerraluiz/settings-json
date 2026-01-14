@@ -520,7 +520,7 @@
 			"git.blame.editorDecorationForeground": "#D8DEE940"
 		}
 	},
-	"workbench.colorTheme": "Nord",
+	"workbench.colorTheme": "JetBrains Rider Dark Theme",
 	"workbench.editor.defaultBinaryEditor": "default",
 	"workbench.editor.highlightModifiedTabs": true,
 	"workbench.editor.pinnedTabSizing": "shrink",
@@ -530,7 +530,7 @@
 	"workbench.editorAssociations": {
 		"*.bin": "hexEditor.hexedit"
 	},
-	"workbench.iconTheme": "material-icon-theme",
+	"workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
 	"workbench.list.smoothScrolling": true,
 	"workbench.secondarySideBar.defaultVisibility": "hidden",
 	"workbench.settings.editor": "json",
